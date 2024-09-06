@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "**Hᴇʟʟᴏ {first}\n\n<b>You are not in our channel given below so you don't get the movie file..\n\n If you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below..Then you will get the movie files...\n\nThen you will get the movie files...**</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hᴇʟʟᴏ {first}\n\n<b>You are not in our channels given below so you don't get the movie file..\n\n If you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs 🍿' button below and join our Two channels, then click on the '🔄 Try Again' button below..Then you will get the movie files...\n\nThen you will get the movie files...</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
